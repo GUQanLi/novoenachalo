@@ -1,0 +1,200 @@
+
+.container {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 20px;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.characteristics {
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 15px;
+    background: #fff9dc;
+}
+
+@media (max-width:700px) {
+    .characteristics{
+        text-align: center;
+        display: block;
+    }
+}
+
+.characteristics li {
+    color: green;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.characteristics p {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.channel {
+    margin-top: 40px;
+    background: #e5ffe7;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.channel p {
+    background: #e5ffe7;
+    font-size: 18px;
+    text-align: center;
+}
+
+.channel-link {
+    background: #ffe5e5;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.channel-link a {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: #808080;
+}
+
+a:active {
+    color: #808080;
+}
+
+.characteristics li {
+    margin-bottom: 20px;
+    color: #86898f;
+}
+.com2 th {
+    background-color: aqua;
+
+    font-size: 25px;
+    padding: blue;
+}
+
+.com2 td{
+    font-size: 27px;
+    background-color: #800080;
+    color: white;
+    
+}
+
+.com2 { 
+    opacity: 0.8;
+    background-color: blue;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    padding-left: 237px;
+
+}
+
+.company {
+    text-align: center;
+    font-size: 18px;
+    background-color:#DDA0DD;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 35px;
+    opacity: 0.9;
+    border-color: blue;
+}
+
+.video {
+    font-size: 18px;
+    background-color: #FFDEAD;
+    padding: 10px;
+    border-radius: 45px;
+    margin-top: 35px;
+}
+
+.video p {
+    text-align: center;
+}
+
+.video2 a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.video3 {
+    list-style: none;
+    padding: 0;
+}
+
+.video3 li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact {
+
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 35px;
+}
+
+.contact label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    box-sizing: border-box; 
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .contact {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.cnopka {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.cnopka:hover {
+    opacity: 0.9;
+}
+
+
+
